@@ -10,6 +10,7 @@ import './App.css';
 class App extends Component {
   componentDidMount() {
     // https://stackoverflow.com/questions/30198494/how-do-i-cycle-the-background-url-of-a-div-through-several-images
+    // https://imgur.com/gallery/IOFRl
     const images = [
       "",
       "4kNLeda.jpeg",
@@ -17,8 +18,10 @@ class App extends Component {
       "g7JTjBC.jpeg",
       "YlkVklb.png",
       "Xgpu2yT.jpeg",
-      "My2cWhE.jpeg",
-      "hJCNB0K.jpeg"
+      "hJCNB0K.jpeg",
+      "lt8syCN.jpeg",
+      "ijXHZ91.png",
+      "pJHqu9F.jpeg"
     ];
 
     let randomCount = Math.round(Math.random() * (images.length - 2)) + 1;

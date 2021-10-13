@@ -1,6 +1,20 @@
+.listrow {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 .col {
     display: flex;
     flex-direction: column;
+    color: black;
+}
+
+.col p {
+    color: black;
 }
 
 .preview {
@@ -12,11 +26,6 @@
     height: auto;
     width: auto\9;
     object-fit: cover;
-}
-
-.listrow {
-    background-color: white;
-    padding: 10px;
 }
 
 .original-title, .overview {

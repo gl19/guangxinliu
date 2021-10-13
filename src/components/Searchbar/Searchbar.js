@@ -69,8 +69,7 @@ class Searchbar extends Component {
 						if (row.hasOwnProperty('genre_ids') && row.genre_ids.includes(16) &&
 								row.hasOwnProperty('original_language') && row.original_language === "ja") {
 							console.log(row);
-							row.poster = "https://image.tmdb.org/t/p/w185" + row.poster_path;
-							const listRow = <ListRow key={row.id} show={row}/>;
+							const listRow = <ListRow className="show-desc" key={row.id} show={row}/>;
 							this.addRow(listRow);
 						}
 					});
