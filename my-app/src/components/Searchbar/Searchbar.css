@@ -1,0 +1,70 @@
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.searchbar {
+    width: 50%;
+    min-width: 600px;
+    padding: 200px;
+    box-sizing: border-box;
+}
+
+#search {
+    padding: 0 30px;
+    margin: 0 -20px;
+    outline: 0;
+    border-width: 2px;
+}
+
+.input-field input[type=search] {
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: white;
+}
+
+p {
+    color: white;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    padding: 5%;
+    filter: invert(1);
+    transition-timing-function: ease;
+    transition: 1s;
+}
+
+.logo:hover {
+    filter: invert(0);
+    transition-timing-function: ease;
+    transition: 1s;
+}
+
+/* From materialize css */
+/* label color */
+.input-field label {
+    color: #000;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: purple !important;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid purple !important;
+    box-shadow: 0 1px 0 0 purple !important;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #000;
+}
+

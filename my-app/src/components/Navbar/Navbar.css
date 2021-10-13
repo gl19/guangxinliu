@@ -1,0 +1,9 @@
+/* #dropdown {
+    position: relative;
+} */
+.brand-image {
+    filter: invert(.9);
+    max-width: 40%;
+    height: auto;
+    width: auto\9;
+}

@@ -1,0 +1,18 @@
+html {
+    overflow-y: scroll;
+}
+
+#middle {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-size: 100% auto;
+    background-position: right -80px;
+    background-repeat: no-repeat;
+    transition-timing-function: ease;
+    transition: .5s;
+}
+
+main {
+    flex: 1 0 auto;
+}

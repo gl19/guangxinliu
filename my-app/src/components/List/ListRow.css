@@ -1,0 +1,24 @@
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.preview {
+    flex: 1 1 180px;
+}
+
+.poster {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    object-fit: cover;
+}
+
+.listrow {
+    background-color: white;
+    padding: 10px;
+}
+
+.original-title, .overview {
+    color: black;
+}
