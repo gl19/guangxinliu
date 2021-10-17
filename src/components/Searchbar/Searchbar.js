@@ -5,14 +5,12 @@ import ListRow from '../List/ListRow';
 import './Searchbar.css';
 
 class Searchbar extends Component {
-	// {"page":1,"":[{"name":"anime","id":210024},{"name":"based on anime","id":222243},{"name":"live action remake of anime","id":271606},{"name":"anime inspired","id":279976},{"name":"anime side story for live-action","id":284517},{"name":"live action anime","id":285442},{"name":"children's-anime","id":285511}],"total_pages":1,"total_":7}
-	// Genre: Animation: 16,
 	constructor(props) {
 		super(props);
 		this.state = {
 			listRows: [],
 			searchTerm: '',
-			sort: -1
+			sort: 1
 		}
 	}
 
@@ -42,11 +40,11 @@ class Searchbar extends Component {
 	handleSort = (e) => {
 		if (e.target.checked) {
 			this.setState({
-				sort: 1
+				sort: -1
 			});
 		} else {
 			this.setState({
-				sort: -1
+				sort: 1
 			});
 		}
 

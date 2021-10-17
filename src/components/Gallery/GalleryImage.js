@@ -23,7 +23,7 @@ class GalleryImage extends Component {
 	render() {
 		return (
 			<>
-                <img className="gallery-image center" alt="poster" src={ this.state.poster }/>
+                <a href={"https://www.themoviedb.org/tv/" + this.props.show.id + "?language=en-US" }><img className="gallery-image center" alt="poster" src={ this.state.poster }/></a>
 		    </>
 		)
 	}

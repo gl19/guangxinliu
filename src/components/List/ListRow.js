@@ -36,6 +36,7 @@ class ListRow extends Component {
 			this.setState({ modal_overview: newShow.overview });
 		}
 
+		this.setState({ modal_id: newShow.id });
 		this.setState({ modal_type: newShow.media_type });
 		this.setState({ modal_vote_average: newShow.vote_average });
 		this.setState({ modal_vote_count: newShow.vote_count });
@@ -130,6 +131,7 @@ class ListRow extends Component {
 			});
 		}
 
+		this.setState({ modal_id: show.id });
 		this.setState({ modal_type: show.media_type });
 		this.setState({ modal_vote_average: show.vote_average });
 		this.setState({ modal_vote_count: show.vote_count });
@@ -158,6 +160,7 @@ class ListRow extends Component {
 										<li>Popularity: { this.state.modal_popularity }</li>
 										<li>Score: &#9733;{ this.state.modal_vote_average }/10</li>
 										<li>Votes: { this.state.modal_vote_count }</li>
+										<li><a href={"https://www.themoviedb.org/" + this.state.modal_type + "/" + this.state.modal_id + "?language=en-US" }>TMDB Link</a></li>
 									</ul>
 								</div>
 								<div className="col s3">
