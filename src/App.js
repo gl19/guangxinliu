@@ -1,10 +1,9 @@
 import { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-// import { Link } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
-import Home from './components/Home/Home';
 import Searchbar from './components/Searchbar/Searchbar';
 import Footer from './components/Footer/Footer';
+import Gallery from './components/Gallery/Gallery';
 import './App.css';
 
 class App extends Component {
@@ -25,18 +24,19 @@ class App extends Component {
     ];
 
     let randomCount = Math.round(Math.random() * (images.length - 2)) + 1;
-    console.log(randomCount);
-    document.getElementById("middle").style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.6) 300px, rgba(0, 0, 0, 1) 850px), url(${process.env.PUBLIC_URL}/backgrounds/${images[randomCount]})`; 
+    document.body.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.6) 300px, rgba(0, 0, 0, 1) 850px), url(${process.env.PUBLIC_URL}/backgrounds/${images[randomCount]})`; 
   }
 
   render() {
     return (
-      <div id="middle" className="grey darken-4">
+      <div id="middle">
         <Router>
           <Navbar />
           <Switch>
             <Route path="/" exact component={ Searchbar } />
-            <Route path="/home" component={ Home } />
+            <Route path="/search" component={ Searchbar } />
+            <Route path="/home" component={ Searchbar } />
+            <Route path="/gallery" component= { Gallery } />
           </Switch>
         </Router>
         <main />

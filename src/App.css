@@ -6,11 +6,13 @@ html {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+}
+
+body {
     background-size: 100% auto;
-    background-position: right -80px;
+    background-position: fixed;
     background-repeat: no-repeat;
-    transition-timing-function: ease;
-    transition: .5s;
+    background-color: black;
 }
 
 main {
