@@ -1,0 +1,24 @@
+.entry {
+    -moz-box-shadow: 0 0 5px black;
+    -webkit-box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px black;
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.section-header {
+    margin: 3% 5%;
+}
+
+.entry-title {
+    padding: 1px 2em;
+}
+
+.entry-subtitle {
+    padding: 1px 0;
+}
+
+.entry-image > img {
+    padding: 2em 0 1em 1em;
+}

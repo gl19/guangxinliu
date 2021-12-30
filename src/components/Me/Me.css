@@ -1,0 +1,42 @@
+#content {
+    -moz-box-shadow: 0 0 5px black;
+    -webkit-box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px black;
+    margin: 5% 25%;
+}
+
+#profile-picture {
+    padding: 3vh;
+}
+
+#profile {
+    padding-top: 2%;
+    width: 40%;
+    background-color: #707F99;
+    height: 60vh;
+    overflow-y: auto;
+}
+
+#about {
+    padding: 2% 3%;
+    width: 60%;
+    background-color: white;
+    height: 60vh;
+    overflow-y: auto;
+}
+
+.icon {
+    max-width: 64px;
+    min-width: 16px;
+    height: auto;
+    filter: invert(99%) sepia(50%) saturate(2%) hue-rotate(1deg) brightness(108%) contrast(100%);
+}
+
+.separator {
+    height: 3px;
+    width: 20%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #d90429;
+}

@@ -8,8 +8,8 @@ class Footer extends Component {
 				<footer className="page-footer black">
 					<div className="footer-copyright black">
 						<div className="container left">
-							<p className="grey-text text-darken-3">AniSearchIt!</p>
-							<p className="grey-text text-darken-3">Powered by TMDB</p>
+							<p className="grey-text text-darken-3"></p>
+							<p className="grey-text text-darken-3"></p>
 						</div>
 					</div>
 				</footer>

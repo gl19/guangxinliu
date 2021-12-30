@@ -1,34 +1,8 @@
-/* #dropdown {
-    position: relative;
-} */
-.brand-image {
-    filter: invert(.9);
-    max-width: 40%;
-    height: auto;
-    width: auto\9;
-    filter: grayscale(1) contrast(0) brightness(2);
-    transition-timing-function: ease;
-    transition: .5s;
-}
-
-.brand-image:hover {
-    filter: grayscale(0);
-    transition-timing-function: ease;
-    transition: .5s;
-}
-
-ul.dropdown-content.select-dropdown li {
-    color: white !important;
-}
-
-.dropdown-trigger:hover {
-    background-color: pink !important;
-}
-
-.dropdown-content li:hover, .dropdown-content li.active {
-    background-color: pink !important;
-}
-
-ul.dropdown-content li a {
-    color: white; /* no need for !important :) */
+/* https://coolors.co/2b2d42-8d99ae-edf2f4-ef233c-d90429 */
+nav {
+    font-family: 'Fira Sans';
+    font-weight: 300;
+    height: 80px;
+    line-height: 80px;
+    background-color: #2b2d42;
 }
