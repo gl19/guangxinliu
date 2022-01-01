@@ -8,9 +8,9 @@ class Navbar extends Component {
       <>
         <nav id="navbar">
           <div className="navbar-wrapper container">
-            <Link to="/" className="brand-logo left">Guangxin Liu</Link>
+            <Link to="/me" className="brand-logo left">Guangxin Liu</Link>
             <ul id='dropdown1' className='right'>
-              <li><Link to="/">Me</Link></li>
+              <li><Link to="/me">Me</Link></li>
               <li><Link to="/education">Education</Link></li>
               <li><Link to="/experience">Experience</Link></li>
             </ul>            

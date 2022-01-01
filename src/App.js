@@ -11,9 +11,9 @@ class App extends Component {
     return (
       <div id="middle">
         <Router>
-          <Navbar />
+          <Navbar/>
           <Switch>
-            <Route path="/" exact component={ Me } />
+            <Route path="/me" exact component={ Me } />
             <Route path="/education" exact component={ Education } />
             <Route path="/experience" exact component={ Experience } />
           </Switch>
