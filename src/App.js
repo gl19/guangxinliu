@@ -13,7 +13,7 @@ class App extends Component {
         <HashRouter>
           <Navbar/>
           <Switch>
-            <Route path="/me" exact component={ Me } />
+            <Route path="/" exact component={ Me } />
             <Route path="/education" exact component={ Education } />
             <Route path="/experience" exact component={ Experience } />
           </Switch>
