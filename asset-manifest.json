@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/guangxinliu/static/css/main.9e20c1a4.chunk.css",
-    "main.js": "/guangxinliu/static/js/main.d1b15d74.chunk.js",
-    "main.js.map": "/guangxinliu/static/js/main.d1b15d74.chunk.js.map",
-    "runtime-main.js": "/guangxinliu/static/js/runtime-main.7d333f9f.js",
-    "runtime-main.js.map": "/guangxinliu/static/js/runtime-main.7d333f9f.js.map",
-    "static/js/2.34515acb.chunk.js": "/guangxinliu/static/js/2.34515acb.chunk.js",
-    "static/js/2.34515acb.chunk.js.map": "/guangxinliu/static/js/2.34515acb.chunk.js.map",
-    "index.html": "/guangxinliu/index.html",
-    "static/css/main.9e20c1a4.chunk.css.map": "/guangxinliu/static/css/main.9e20c1a4.chunk.css.map",
-    "static/js/2.34515acb.chunk.js.LICENSE.txt": "/guangxinliu/static/js/2.34515acb.chunk.js.LICENSE.txt"
+    "main.css": "/guangxinliu-test/static/css/main.9e20c1a4.chunk.css",
+    "main.js": "/guangxinliu-test/static/js/main.e4bc0b9e.chunk.js",
+    "main.js.map": "/guangxinliu-test/static/js/main.e4bc0b9e.chunk.js.map",
+    "runtime-main.js": "/guangxinliu-test/static/js/runtime-main.a24b905d.js",
+    "runtime-main.js.map": "/guangxinliu-test/static/js/runtime-main.a24b905d.js.map",
+    "static/js/2.34515acb.chunk.js": "/guangxinliu-test/static/js/2.34515acb.chunk.js",
+    "static/js/2.34515acb.chunk.js.map": "/guangxinliu-test/static/js/2.34515acb.chunk.js.map",
+    "index.html": "/guangxinliu-test/index.html",
+    "static/css/main.9e20c1a4.chunk.css.map": "/guangxinliu-test/static/css/main.9e20c1a4.chunk.css.map",
+    "static/js/2.34515acb.chunk.js.LICENSE.txt": "/guangxinliu-test/static/js/2.34515acb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7d333f9f.js",
+    "static/js/runtime-main.a24b905d.js",
     "static/js/2.34515acb.chunk.js",
     "static/css/main.9e20c1a4.chunk.css",
-    "static/js/main.d1b15d74.chunk.js"
+    "static/js/main.e4bc0b9e.chunk.js"
   ]
 }
